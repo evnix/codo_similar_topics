@@ -1,6 +1,9 @@
 # codo_similar_topics
 list similar topics for codoforum forum software http://codoforum.com
 
+![related forum topics](http://i60.tinypic.com/3469wti.jpg)
+
+
 ###How to install:
 - Download/clone this plugin(repository).
 - rename the folder to `codo_similar_topics`

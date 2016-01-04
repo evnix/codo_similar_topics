@@ -49,7 +49,7 @@ class plg_similar_topics{
 			$title=implode(" OR ", $tarray);			
 
 			$search->str=$title;
-			$search->tid = '<> ' . $info[0]['topic_id'];
+			$search->tid = '!= ' . $info[0]['topic_id'];
 			$search->pid = '= t.post_id';
 
             $links=$this->generate_links($search->search());
